@@ -80,7 +80,7 @@ if __name__ == "__main__":
   payload += '&is_odor=true'
   payload += '&odor_id=8b55b5c9-caa5-4019-8dd1-9edd931ea0e6' # odeur chimique
 
-  if ( args.force == "fort "):
+  if ( args.force == "fort"):
     payload += '&inconvenience_id=6b36a8bc-97c4-4e12-97e4-676df425d630'
     payload += '&intensity_id=9379a96f-0e26-425e-ad7c-6704e86a3f33'
   else:
