@@ -1,11 +1,7 @@
-import json, os
-from dotenv import load_dotenv
 import requests as req
 import argparse
 from datetime import datetime
 
-load_dotenv()
-def env(var: str): return os.getenv(var)
 
 log = 'https://odometric-synergy.com/api/controller/ObservatoryRiversideController/logToObservatory'
 pwd = 'https://odometric-synergy.com/api/controller/AccessController/checkPassword'
